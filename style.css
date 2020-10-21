@@ -107,5 +107,35 @@
     padding-left: 0px;
 
 }
-  
 
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: rgb(5, 51, 43);
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: rgb(5, 51, 43);
+}
+
+caption {
+    color: silver;
+    font-family: monospace;
+}
+
+.main-new {
+    border-bottom: 3px solid black;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+p {
+    color: black;
+    font-size: 1rem;
+}
+
+.alt-new {
+    border-bottom:1px dashed black;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
