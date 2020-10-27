@@ -1,4 +1,3 @@
-# ascension-post
-[link](https://facundo92.github.io/ascension-post/)
-## Second 
-flama
+# Ascension-Post
+This is my online news project
+Visit my page [here](https://facundo92.github.io/ascension-post/)
