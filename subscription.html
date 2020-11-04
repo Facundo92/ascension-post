@@ -3,14 +3,35 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="jav.js" ></script>
-    <title>Document</title>
+    <script src="form.js" ></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="flex.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Subscription Online</title>
  </head>
  <body>
+  <div class="header">
+    <a class="title" href="#home">The Ascension Post</a>
+    <table class="menu">
+        <tr>
+            <th><a href="#">POLITICS</a></th>
+            <th><a href="#">ECONOMY</a></th>
+            <th><a href="#">SCIENCE</a></th>
+            <th><a href="#">HEALTH</a></th>
+            <th><a href="#">WORLD</a></th>
+            <th><a href="#">SPORTS</a></th>
+            <th><a href="#">ARTS</a></th>
+        </tr>
+    </table>
+    <a class="icon">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
    <h1>Online newspaper subscription</h1>
    <h3>Complete this form:</h3>
-   <form action="/login.php" id="formulario"></form>
-     <p>Full name <input type="text" name="name" id="full-name"></p>
+  <form action="/login.php" id="formulario"></form>
+     <p>Full Name <input type="text" name="name" id="full-name"></p>
      <span id="error-name"></span>
      <p>Email <input type="text" name="email" id="email"></p>
      <span id="error-email"></span>
@@ -31,6 +52,21 @@
      <p>DNI <input type="number" name="dni" id="dni"></p>
      <span id="error-dni"></span>
      <input type="submit">
-   </form>
+  </form>
+  <footer>
+    <div class="footer">
+      <h2 class="footer-date">&#174; october 2020</h2>
+      <div class="footer-list">
+          <ul>
+           <li><a href="#">Contact us</a></li>
+           <li><a href="#">Advertise here</a></li>
+           <li><a href="#">Privacy Policy</a></li>
+           <li><a href="#">Cookies Policy</a></li>
+           <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+      </div>
+    </div>
+
+  </footer>
   </body>
 </html>
