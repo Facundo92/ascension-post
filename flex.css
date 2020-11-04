@@ -1,107 +1,101 @@
-
-@media only screen and (max-width: 768px) {  
   .header a.icon {
-    background: #055;
-    display: absolute;
-    position: absolute;
-    top: 25px;
-    right: 0;
-  }
-  .header a.title {
-      float: left;
-  }
-
- .menu {
-      display: none;
-  }
-}
- 
-  .header a:hover {
-    display: flex;
-    background-color: #099;
-    color: black;
-  }
-
-.content {
-    background-color: #999;
-    flex-direction: column;
-}
-
-@media(min-width:769px) {
-    .header .a.icon {
+      background: #055;
+      display: absolute;
+      position: absolute;
+      top: 25px;
+      right: 0;
+    }
+    .header a.title {
+        float: left;
+    }
+  
+   .menu {
         display: none;
+    }
+   
+    .header a:hover {
+      display: flex;
+      background-color: #099;
+      color: black;
+    }
+  
+  .content {
+      background-color: #999;
+      flex-direction: column;
+  }
+  @media(min-width:769px) {
+      .header .a.icon {
+          display: none;
+        }
+      .header .menu {
+          font-family:Verdana, Geneva, Tahoma, sans-serif;
+          display:flex;
+          justify-content: space-around;
+          text-align: center;
+          font-size: 10px;
+          list-style-type: none;
       }
-    .header .menu {
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        display:flex;
-        justify-content: space-around;
-        text-align: center;
-        font-size: 10px;
-        list-style-type: none;
-    }
-    .content {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        text-align: center;
-        flex: 50%;
-    }
-    
-    .main-content{
-        display: flex;
-        flex:100%;
-        order: 0;
-        flex-direction: column;
-    }
-
-
-    .alt-content{
-        flex: 65%;
-        display: inline-flex;
-        order: 1;
-        flex-direction: column;
-        }
-
-    .adv-content{
-        display: inline-flex;
-        order: 1;
-        flex-direction: column;
-        flex: 35%;
-        }
-
-    }
-
+      .content {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          text-align: center;
+          flex: 50%;
+      }
+      
+      .main-content{
+          display: flex;
+          flex:100%;
+          order: 0;
+          flex-direction: column;
+      }
+  
+  
+      .alt-content{
+          flex: 65%;
+          display: inline-flex;
+          order: 1;
+          flex-direction: column;
+          }
+  
+      .adv-content{
+          display: inline-flex;
+          order: 1;
+          flex-direction: column;
+          flex: 35%;
+          }
+  
+      }
 @media(min-width:1024px){
-     .header .a.icon {
-        display: none;
-      }
-     .header .menu {
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        display:flex;
-        justify-content: space-around;
-        text-align: center;
-        font-size: 10px;
-        list-style-type: none;
-     }
-     .content {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        text-align: center;
-
-     }
-     .main-content {
-        flex-direction: column;
-        order: 1;
-        flex: 50%;
-     }
-     .alt-content{
-        flex-direction: column;
-        order: 0;
-        flex:30%;
-     }
-     .adv-content{
-        order: 2;
-        flex: 20%;
-     }
-    }
+    .header .a.icon {
+          display: none;
+        }
+    .header .menu {
+          font-family:Verdana, Geneva, Tahoma, sans-serif;
+          display:flex;
+          justify-content: space-around;
+          text-align: center;
+          font-size: 10px;
+          list-style-type: none;
+       }
+    .content {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          text-align: center;
+       }
+    .main-content {
+          flex-direction: column;
+          order: 1;
+          flex: 50%;
+       }
+    .alt-content{
+          flex-direction: column;
+          order: 0;
+          flex:30%;
+       }
+    .adv-content{
+          order: 2;
+          flex: 20%;
+       }
+}
