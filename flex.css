@@ -1,4 +1,5 @@
-  .header a.icon {
+@media only screen and (max-width: 768px) {  
+    .header a.icon {
       background: #055;
       display: absolute;
       position: absolute;
@@ -12,6 +13,7 @@
    .menu {
         display: none;
     }
+  }
    
     .header a:hover {
       display: flex;
@@ -23,6 +25,7 @@
       background-color: #999;
       flex-direction: column;
   }
+  
   @media(min-width:769px) {
       .header .a.icon {
           display: none;
@@ -66,11 +69,12 @@
           }
   
       }
-@media(min-width:1024px){
-    .header .a.icon {
+  
+  @media(min-width:1024px){
+       .header .a.icon {
           display: none;
         }
-    .header .menu {
+       .header .menu {
           font-family:Verdana, Geneva, Tahoma, sans-serif;
           display:flex;
           justify-content: space-around;
@@ -78,24 +82,25 @@
           font-size: 10px;
           list-style-type: none;
        }
-    .content {
+       .content {
           display: flex;
           flex-direction: row;
           justify-content: space-around;
           text-align: center;
+  
        }
-    .main-content {
+       .main-content {
           flex-direction: column;
           order: 1;
           flex: 50%;
        }
-    .alt-content{
+       .alt-content{
           flex-direction: column;
           order: 0;
           flex:30%;
        }
-    .adv-content{
+       .adv-content{
           order: 2;
           flex: 20%;
        }
-}
+      }
